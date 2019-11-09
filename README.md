@@ -4,7 +4,7 @@ We, the team of the [Copenhagen Causality Lab (CoCaLa)](https://www.math.ku.dk/e
 
 No documentation (yet) and (partly) unpolished, posted right after the competition closed ;-)
 
-* [**logmap**_.R](./logmap.R)
+* [**logmap**.R](./logmap.R)
 * **Ridge**
 * [**selvar**_method.py](./selvar_method.py) + [**selvar**.f](./selvar.f)
 * [**varvar**.py](./varvar.py)
