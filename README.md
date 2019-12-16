@@ -1,3 +1,11 @@
+Just a quick update:
+__Our CoCaLa Team won the [Causality 4 Climate NeurIPS competition](https://causeme.uv.es/neurips2019/)!__
+Among all 190 competitors, with 40 very active, we won the most categories with 18 out of 34, came in second place in all remaining 16 categories, and won the overall competition by achieving an average AUC-ROC score of 0.917 (2nd and 3rd place achieved 0.722 and 0.676, respectively).
+Congrats and thanks to many great teams and thanks to the organisers for putting a fun competition together.
+You can [check out our slides here](https://sweichwald.de/slides.html#neurips2019), [re-watch the NeurIPS session here](https://slideslive.com/38922052/competition-track-day-21), and read more on the [competition results](https://causeme.uv.es/neurips2019/static/img/Runge_NeurIPS_compressed.pdf).
+
+---
+
 This repository contains pretty cool stuff!
 
 We, the team of the [Copenhagen Causality Lab (CoCaLa)](https://www.math.ku.dk/english/research/spt/cocala/) participating in the [Causality 4 Climate NeurIPS competition](https://causeme.uv.es/neurips2019/), are posting the scripts here that generated our final competition submissions.
