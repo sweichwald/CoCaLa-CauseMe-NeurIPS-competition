@@ -1,3 +1,19 @@
+Please refer to the [tidybench](https://github.com/sweichwald/tidybench) code repository and the accompanying [preprint](http://arxiv.org/abs/2002.09573) for up to date implementations and descriptions of the algorithms that we used during the NeurIPS Causality 4 Climate competition.
+
+The algorithms correspond to the ones implemented in [tidybench](https://github.com/sweichwald/tidybench) as follows:
+
+* varvar --> `tidybench.slarac` (Subsampled Linear Auto-Regression Absolute Coefficients)
+
+* ridge --> `tidybench.qrbs` (Quantiles of Ridge regressed Bootstrap Samples)
+
+* varvar(lasso=True) --> `tidybench.lasar` (LASso Auto-Regression)
+
+* selvar --> `tidybench.selvar` (Selective auto-regressive model)
+
+We kindly ask you to cite above mentioned preprint in case you find our code useful.
+
+---
+
 Just a quick update:
 __Our CoCaLa Team won the [Causality 4 Climate NeurIPS competition](https://causeme.uv.es/neurips2019/)!__
 Among all 190 competitors, with 40 very active, we won the most categories with 18 out of 34, came in second place in all remaining 16 categories, and won the overall competition by achieving an average AUC-ROC score of 0.917 (2nd and 3rd place achieved 0.722 and 0.676, respectively).
@@ -21,7 +37,7 @@ No documentation (yet) and (partly) unpolished as we posted this right after the
 
 ## logmap
 
-naive fitting of the logistic map with linear regression for the quotient x_t / x_{t-1} 
+naive fitting of the logistic map with linear regression for the quotient x_t / x_{t-1}
 
 ## ridge
 
@@ -33,7 +49,7 @@ This ridge regression is in fact repeated on a number of bootstrap samples, and 
 
 ## selvar
 
-Var model with variable and lag selection with respect to predictive residual sum of squares. Edges can be scored with different criteria and p-values are computed for the likelihood-ratio test. 
+Var model with variable and lag selection with respect to predictive residual sum of squares. Edges can be scored with different criteria and p-values are computed for the likelihood-ratio test.
 
 ## varvar
 
