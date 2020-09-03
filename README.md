@@ -1,6 +1,22 @@
-Please refer to the [tidybench](https://github.com/sweichwald/tidybench) code repository and the accompanying [preprint](http://arxiv.org/abs/2002.09573) for up to date implementations and descriptions of the algorithms that we used during the NeurIPS Causality 4 Climate competition.
+Please refer to the [tidybench](https://github.com/sweichwald/tidybench) code repository and our [accompanying paper](http://proceedings.mlr.press/v123/weichwald20a.html) for up to date implementations and descriptions of the algorithms that we used during the NeurIPS Causality 4 Climate competition.
 
-The algorithms correspond to the ones implemented in [tidybench](https://github.com/sweichwald/tidybench) as follows:
+We kindly ask you to cite our [accompanying paper](http://proceedings.mlr.press/v123/weichwald20a.html) in case you find our code useful:
+```
+@InProceedings{weichwald2020causal,
+  title = {{Causal structure learning from time series: Large regression coefficients may predict causal links better in practice than small p-values}},
+  author = {Weichwald, Sebastian and Jakobsen, Martin E. and Mogensen, Phillip B. and Petersen, Lasse and Thams, Nikolaj and Varando, Gherardo},
+  publisher = {PMLR},
+  series = {Proceedings of the NeurIPS 2019 Competition and Demonstration Track, Proceedings of Machine Learning Research},
+  volume = {123},
+  pages = {27--36},
+  year = {2020},
+  editor = {Hugo Jair Escalante and Raia Hadsell},
+  pdf = {http://proceedings.mlr.press/v123/weichwald20a/weichwald20a.pdf},
+  url = {http://proceedings.mlr.press/v123/weichwald20a.html},
+}
+```
+
+The algorithms in this repository correspond to the ones implemented in [tidybench](https://github.com/sweichwald/tidybench) as follows:
 
 * varvar --> `tidybench.slarac` (Subsampled Linear Auto-Regression Absolute Coefficients)
 
@@ -9,8 +25,6 @@ The algorithms correspond to the ones implemented in [tidybench](https://github.
 * varvar(lasso=True) --> `tidybench.lasar` (LASso Auto-Regression)
 
 * selvar --> `tidybench.selvar` (Selective auto-regressive model)
-
-We kindly ask you to cite above mentioned preprint in case you find our code useful.
 
 ---
 
